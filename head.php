@@ -9,4 +9,5 @@
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </head>
+<?php header('Content-Type: text/html; charset=utf-8'); ?>
 <body>
