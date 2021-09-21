@@ -5,10 +5,14 @@
 <style>
   .bg-c{
     background-color: rgb(84, 195, 247);
+    border-radius: 5%;
   }
   body{
-    background-image: url('img/pics_4_1.jpg');
+    background-image: url('img/bg.png');
     opacity: 0.9;
+    /* background-size: 100% ; */
+    width: 100%;
+    height: auto;
   }
 </style>
 
@@ -18,7 +22,7 @@
   <div class="d-flex justify-content-center " style="margin-top:80px;">
     <div class="card bg-c" style="width:320px">
       <div class="card-body">
-        <h4 class="card-title text-center">เลือกตั้ง อวท. <br>วิทยาลัยเทคนิคชลบุรี</h4>
+        <h4 class="card-title text-center bg-info text-white">เลือกตั้ง อวท. <br>วิทยาลัยเทคนิคชลบุรี</h4>
         <img src="img/vhead.png" width="100%" alt="">
         
         <form>
